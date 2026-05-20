@@ -1,0 +1,72 @@
+-- Total Employees
+SELECT COUNT(*) AS total_employees
+FROM employee_data;
+
+-- Employees in each department
+SELECT department,
+COUNT(*) AS employee_count
+FROM employee_data
+GROUP BY department;
+
+-- Male and Female employee count
+SELECT gender,
+COUNT(*) AS total_count
+FROM employee_data
+GROUP BY gender;
+
+-- Average salary of employees
+SELECT ROUND(AVG(salary),2) AS avg_salary
+FROM employee_data;
+
+-- Highest salary employee
+SELECT employee_name,
+salary
+FROM employee_data
+ORDER BY salary DESC
+LIMIT 1;
+
+-- Lowest salary employee
+SELECT employee_name,
+salary
+FROM employee_data
+ORDER BY salary ASC
+LIMIT 1;
+
+-- Top 5 highest salary employees
+SELECT employee_name,
+department,
+salary
+FROM employee_data
+ORDER BY salary DESC
+LIMIT 5;
+
+-- Employees above age 30
+SELECT employee_name,
+age,
+department
+FROM employee_data
+WHERE age > 30;
+
+-- Employees in IT department
+SELECT employee_name,
+job_role
+FROM employee_data
+WHERE department='IT';
+
+-- Average salary by department
+SELECT department,
+ROUND(AVG(salary),2) AS avg_salary
+FROM employee_data
+GROUP BY department;
+
+-- Employee count by city
+SELECT city,
+COUNT(*) AS total_employees
+FROM employee_data
+GROUP BY city;
+
+-- Employees with experience more than 3 years
+SELECT employee_name,
+experience_years
+FROM employee_data
+WHERE experience_years > 3;
