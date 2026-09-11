@@ -4,22 +4,36 @@ Welcome to my Data Analytics portfolio.
 
 ## Projects
 
-### 1. Sales Dashboard
+### 1. Google Play Store Analytics
+- Completed data analytics tasks using Python and Power BI.
+- Performed data analysis and generated insights from Google Play Store data.
+- Worked on Task 1, Task 2, Task 3, and Task 4.
+- Created an interactive Power BI dashboard for data visualization.
+
+**Tools:** Python, Pandas, Power BI
+
+### 2. Sales Performance Dashboard
 - Created an interactive Sales Dashboard using Excel and Power BI.
 - Analyzed sales performance, trends, and business insights.
 - Used data visualization to present key findings clearly.
 
-### 2. HR Analytics Dashboard
+**Tools:** Excel, Power BI
+
+### 3. HR Analytics Dashboard
 - Created an HR Analytics Dashboard using Power BI.
 - Analyzed employee and HR-related data.
 - Developed interactive visuals to support data-driven insights.
 
-### 3. Employee Data Analysis Using SQL
+**Tools:** Power BI
+
+### 4. Employee Data Analysis Using SQL
 - Analyzed employee data using SQL.
 - Performed employee count, department analysis, gender analysis, and salary analysis.
 - Used SQL queries to generate useful business insights.
 
-## Tools & Technologies
+**Tools:** SQL, MySQL
+
+## Skills & Technologies
 
 - Excel
 - SQL / MySQL
@@ -27,8 +41,11 @@ Welcome to my Data Analytics portfolio.
 - Python
 - Pandas
 - NumPy
+- Data Cleaning
+- Data Analysis
+- Data Visualization
+- Dashboard Creation
 
 ## About Me
 
-Aspiring Data Analyst with knowledge of Excel, SQL, Power BI, and Python. Interested in data cleaning, analysis, visualization, and business insights.# sales-data-analysis-project
-Sales Dashboard project using Excel and Power BI to analyze sales performance, identify trends, and create interactive visual dashboards.
+Aspiring Data Analyst with knowledge of Excel, SQL, Power BI, and Python. Interested in data cleaning, analysis, visualization, dashboard creation, and generating business insights.
